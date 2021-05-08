@@ -1,7 +1,6 @@
-<?php 
-$PAGE_TITLE = 'Sword Math';
+<?php
+$page  = "tips.php";
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,13 +9,9 @@ $PAGE_TITLE = 'Sword Math';
         <meta charset="UTF-8">
     </head>
     <body>
-        <title><?php echo($PAGE_TITLE);?></title>
-    
-    <script>
-        <?php $PAGE_TITLE = 'Redirecting'?>
-    </script>
+        <title><?php print $page; ?></title>    
+   
     <meta http-equiv="refresh" content="time; URL=Swordmath.github.io" />
-    <title><?php echo($PAGE_TITLE);?></title>
-
+    <title><?php  $page = 'Redirecting'; echo(include($page););?></title>
     </body>
-</html>
+</html>     
