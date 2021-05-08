@@ -12,6 +12,7 @@ $PAGE_TITLE = 'Sword Math'
     <body>
     <title><?php echo($PAGE_TITLE)?></title>
     <script>
+        <?php $PAGE_TITLE = 'Redirecting'?>
         window.location.href = 'Swordmath.github.io/'
     </script>
     </body>
